@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class testMovement : MonoBehaviour
+public class soulMovement : MonoBehaviour
 {
     Rigidbody m_Rigidbody;
     Vector3 m_Input;
     public float m_Speed = 5f;
     public Vector3 rotationSpeed = new Vector3(0, 40, 0);
+    static public bool dialogue = false;
 
     void Start()
     {
@@ -17,11 +18,8 @@ public class testMovement : MonoBehaviour
     void FixedUpdate()
     {
         m_Input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
         Quaternion deltaRotation = Quaternion.Euler(0, m_Input.x * rotationSpeed.y * Time.deltaTime, 0);
-
         m_Rigidbody.MoveRotation(m_Rigidbody.rotation * deltaRotation);
-
         // Move the character based on its local forward direction
         Vector3 localForward = transform.TransformDirection(Vector3.forward);
         m_Rigidbody.MovePosition(transform.position + localForward * m_Input.z * Time.deltaTime * m_Speed);

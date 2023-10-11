@@ -80,7 +80,6 @@ public class meterTracker : MonoBehaviour
         //behvaior for when worm touches a mushroom
         if (collison.CompareTag("Mushroom"))
         {
-            Debug.Log("mushroom touch");
             hungerFill(10);
             currentHappy += 20;
             happyBar.SetHappy(currentHappy);
