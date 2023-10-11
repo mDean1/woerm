@@ -82,7 +82,7 @@ public class meterTracker : MonoBehaviour
         {
             Debug.Log("mushroom touch");
             hungerFill(10);
-            currentHappy += 5;
+            currentHappy += 20;
             happyBar.SetHappy(currentHappy);
             Destroy(collison.gameObject);
         }
