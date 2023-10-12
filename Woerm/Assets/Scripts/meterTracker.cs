@@ -24,6 +24,8 @@ public class meterTracker : MonoBehaviour
     public Rigidbody rb;
     bool inPuddle;
     [SerializeField] private float coef = .2f;
+    public SceneFader sceneFader;
+
 
 
     // Start is called before the first frame update
@@ -42,11 +44,12 @@ public class meterTracker : MonoBehaviour
         happyBar.SetHappy(currentHappy);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        //Return to afterlife once objective is complete
         if (currentHappy >= maxHappy){
-            SceneManager.LoadScene("Heaven");
+            sceneFader.FadeOut();
         }
 
         //slowly refills water meter as long as worm is in puddle
@@ -74,6 +77,7 @@ public class meterTracker : MonoBehaviour
 
     }
 
+    //refill hunger bar 
     void hungerFill (int foodWorth){
         currentHunger += foodWorth;
         hungerBar.SetHunger(currentHunger);
@@ -82,7 +86,7 @@ public class meterTracker : MonoBehaviour
         
     private void OnTriggerEnter (Collider collison)
     {
-        //behvaior for when worm touches a mushroom
+        //behavior for when worm touches a mushroom
         if (collison.CompareTag("Mushroom"))
         {
             hungerFill(10);
@@ -91,7 +95,7 @@ public class meterTracker : MonoBehaviour
             Destroy(collison.gameObject);
         }
 
-        //behvaior for when worm sits in a puddle
+        //behavior for when worm sits in a puddle
         if (collison.CompareTag("Puddle"))
         {
             inPuddle = true;          
@@ -99,6 +103,7 @@ public class meterTracker : MonoBehaviour
 
     }
 
+    //stops refilling water meter when worms leave puddle
     private void OnTriggerExit (Collider collison){
         if (collison.CompareTag("Puddle"))
         {

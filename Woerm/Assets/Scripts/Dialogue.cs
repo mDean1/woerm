@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 /*
     CODE FROM BMo's "5 Minute DIALOGUE SYSTEM in UNITY Tutorial" (https://www.youtube.com/watch?v=8oTYabhj248)
@@ -10,7 +12,7 @@ using TMPro;
 public class NewBehaviourScript : MonoBehaviour
 {
 
-     public TextMeshProUGUI textComponent;
+    public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
@@ -65,6 +67,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
         else
         {
+            SceneManager.LoadScene("Heaven");
             gameObject.SetActive(false);
         }
     }
