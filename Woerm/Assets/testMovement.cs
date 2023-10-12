@@ -1,27 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class soulMovement : MonoBehaviour
+public class testMovement : MonoBehaviour
 {
     Rigidbody m_Rigidbody;
     Vector3 m_Input;
     public float m_Speed = 5f;
     public Vector3 rotationSpeed = new Vector3(0, 40, 0);
-    static public bool dialogue = false;
 
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
     }
 
-    void Update(){
-        if (Input.GetKeyDown(KeyCode.R)){
-            SceneManager.LoadScene("Forest");
-        }
-    }
-    
+       
     void FixedUpdate()
     {
     

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9134212876362318881
+--- !u!1 &1707590794293928938
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6219566966783710672}
-  - component: {fileID: 8660460144329978038}
-  - component: {fileID: 7677082328169069095}
-  - component: {fileID: 8240533254014942710}
+  - component: {fileID: 8886038374655424490}
+  - component: {fileID: 5675879387536490170}
+  - component: {fileID: 7877594228793577553}
+  - component: {fileID: 6013831664912809971}
   m_Layer: 0
-  m_Name: Rock_02
+  m_Name: Tree_Willow_Mesh 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6219566966783710672
+--- !u!4 &8886038374655424490
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9134212876362318881}
+  m_GameObject: {fileID: 1707590794293928938}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 485.02426, y: -0.000023841858, z: 583.1413}
-  m_LocalScale: {x: 7.21, y: 7.21, z: 7.21}
+  m_LocalPosition: {x: 511.14676, y: -0.42, z: 579.9631}
+  m_LocalScale: {x: 4.9, y: 4.9, z: 4.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8660460144329978038
+--- !u!33 &5675879387536490170
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9134212876362318881}
-  m_Mesh: {fileID: 4300000, guid: 3a775dc2c1a334b45a5667a56fe92c23, type: 3}
---- !u!23 &7677082328169069095
+  m_GameObject: {fileID: 1707590794293928938}
+  m_Mesh: {fileID: -7597932163015031009, guid: 569acb77775fd1a4bb306ebdcd43d719, type: 3}
+--- !u!23 &7877594228793577553
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9134212876362318881}
+  m_GameObject: {fileID: 1707590794293928938}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,7 +62,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
+  - {fileID: 2100000, guid: 736fa3bc7a8fcd94285040052bc293ec, type: 2}
+  - {fileID: 2100000, guid: fa0054bf3774a034286df765eae79f96, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74,7 +75,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
+  m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -84,16 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!205 &8240533254014942710
+--- !u!205 &6013831664912809971
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9134212876362318881}
+  m_GameObject: {fileID: 1707590794293928938}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.00065291673, y: 0, z: 0.0023095235}
-  m_Size: 0.17496014
+  m_LocalReferencePoint: {x: -0.12663555, y: 5.1578593, z: -0.023322105}
+  m_Size: 12.087802
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
@@ -101,13 +102,13 @@ LODGroup:
   - screenRelativeHeight: 0.6
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 7677082328169069095}
+    - renderer: {fileID: 7877594228793577553}
   - screenRelativeHeight: 0.3
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 7677082328169069095}
-  - screenRelativeHeight: 0.022315644
+    - renderer: {fileID: 7877594228793577553}
+  - screenRelativeHeight: 0.021390643
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 7677082328169069095}
+    - renderer: {fileID: 7877594228793577553}
   m_Enabled: 1

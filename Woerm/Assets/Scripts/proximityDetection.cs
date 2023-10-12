@@ -19,16 +19,18 @@ public class proximityDetection : MonoBehaviour
             soulMovement.dialogue = true;
             NewDialogue("...");
             NewDialogue("You seem...unsettled. Bad choice last reincarnation? Or perhaps that was your first time dying?");
-            NewDialogue("Don't be scared... To some this realm is called \"Heaven\", \"Hell\", \"Nirvana\", \"Valhalla\", \"Purgatory\", \"Paradise\", it goes by many titles.");
-            NewDialogue("Regardless of the name you give it, it serves the same purpose. A waiting room for souls between reincarnations...");
+            NewDialogue("Don't be scared... To some this realm is called \"Heaven\", \"Hell\", \"Nirvana\", \"Valhalla\", \"Purgatory\", \"Paradise\". It goes by many titles.");
+            NewDialogue("Regardless of the name you give it, it serves the same purpose. A waiting room for souls between reincarnations.");
             NewDialogue("...");
             NewDialogue("I can sense... a heavy weight in your soul.");
-            NewDialogue("We don't forget. That's the problem, you see? You will always carry the feelings of your past lives.");
-            NewDialogue("You'll experience all this... Every time you're here. Only way to forget is to reincarnate, to seek out a new life.");
-            NewDialogue("However... you have the power to choose your next life, and the life after, for the rest of infinity.");
-            NewDialogue("Some are hungered for power, seeking out reincarnations of powerful rulers, however most lives are messy...dirty...violent...");
+            NewDialogue("We don't forget. That's the problem, you see? You will always carry the memories and feelings of your past lives.");
+            NewDialogue("You'll experience this every time you're here. Only way to momentarily forget is to reincarnate, to seek out a new life.");
+            NewDialogue("However... you get to decide who or what to be in your next life, and the life after, for the rest of infinity.");
+            NewDialogue("Some here have gone crazed with their deside for power, however most lives are messy...dirty...violent...");            
+            NewDialogue("Sometimes the best memories come from the simpliest lives. Most of us here can attest to that.");
             NewDialogue("...");
-            NewDialogue("Be wise in your choices. You have infinite tries... but we don't forget.");
+            NewDialogue("Be wise in your choices. You have infinite tries... but you won't ever forget your past.");
+            NewDialogue("Anyway... whenever you decide you're ready to be reborn, close your eyes, think about who, what, and where you want to be, and then press [R].");
             canvas.transform.GetChild(1).gameObject.SetActive(true);
         }
     }
@@ -43,6 +45,7 @@ public class proximityDetection : MonoBehaviour
     private void OnTriggerExit(Collider collider)
     {
         if (collider.CompareTag("Player")){
+            canvas.SetActive(false);
             playerClose = false;
         }
     }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class meterTracker : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class meterTracker : MonoBehaviour
     public WaterBar waterBar;
 
     //happiness variables
+    public float maxHappy = 100;
     public float currentHappy;
     public HappyBar happyBar;
 
@@ -43,6 +45,9 @@ public class meterTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentHappy >= maxHappy){
+            SceneManager.LoadScene("Heaven");
+        }
 
         //slowly refills water meter as long as worm is in puddle
         if (inPuddle){

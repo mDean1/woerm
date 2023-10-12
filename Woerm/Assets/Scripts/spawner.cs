@@ -18,8 +18,8 @@ public class spawner : MonoBehaviour
             Instantiate(foodObjects[randomFood], randomSpawnPosition, Quaternion.identity);
         }
 
-        //randomly spawn 20 puddles at start of the game
-        for (int i = 0; i < 20; i++){
+        //randomly spawn 30 puddles at start of the game
+        for (int i = 0; i < 30; i++){
             Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
             Instantiate(puddle, randomSpawnPosition, Quaternion.identity);
         }
