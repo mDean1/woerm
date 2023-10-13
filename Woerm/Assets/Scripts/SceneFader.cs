@@ -13,6 +13,8 @@ public class SceneFader : MonoBehaviour
     [SerializeField] Color fadeOutColor = Color.black;
     [SerializeField] float fadeTime = 1;
     [SerializeField] float slideTime = 6;
+    public bool fadingOut = false;
+
 
     void Start()
     {
@@ -34,20 +36,23 @@ public class SceneFader : MonoBehaviour
         } 
     }
 
-    public void FadeOut(){
+     public void FadeOut(string sceneName){
+        if(fadingOut){
+            return;
+        }
+        fadingOut = true;
         StartCoroutine(FadeOutRoutine());
         IEnumerator FadeOutRoutine(){
-            float timer = 0;
+            float timer = 0f;
             while(timer < fadeTime){
-                fadeImage.color = new Color(fadeOutColor.r,fadeOutColor.g,fadeOutColor.b,(timer/fadeTime));
+                fadeImage.color = new Color(fadeOutColor.r,fadeOutColor.g,fadeOutColor.b, (timer/fadeTime));
                 timer+=Time.deltaTime;
                 yield return null;
             }
-
             fadeImage.color = fadeOutColor;
             yield return null;
-            SceneManager.LoadScene("Heaven");
-        } 
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     

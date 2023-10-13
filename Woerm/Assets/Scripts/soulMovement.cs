@@ -10,7 +10,7 @@ public class soulMovement : MonoBehaviour
     public float m_Speed = 5f;
     public Vector3 rotationSpeed = new Vector3(0, 40, 0);
     static public bool dialogue = false;
-    public SceneFader sceneFader;
+    [SerializeField] public SceneFader sceneFader;
 
     void Start()
     {

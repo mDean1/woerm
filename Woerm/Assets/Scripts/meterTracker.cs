@@ -49,7 +49,7 @@ public class meterTracker : MonoBehaviour
     {
         //Return to afterlife once objective is complete
         if (currentHappy >= maxHappy){
-            sceneFader.FadeOut();
+            SceneManager.LoadScene("Heaven");             //ADD TRANSITION HERE (FADE TO BLACK)
         }
 
         //slowly refills water meter as long as worm is in puddle

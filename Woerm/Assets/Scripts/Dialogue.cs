@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    [SerializeField] public SceneFader sceneFader;
 
     private int index;
 
@@ -67,8 +68,8 @@ public class NewBehaviourScript : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Heaven");
-            gameObject.SetActive(false);
+            sceneFader.FadeOut("Heaven");
+            //gameObject.SetActive(false);
         }
     }
 }
