@@ -95,6 +95,14 @@ public class meterTracker : MonoBehaviour
             Destroy(collison.gameObject);
         }
 
+        if (collison.CompareTag("Berry"))
+        {
+            hungerFill(3);
+            currentHappy += 5;
+            happyBar.SetHappy(currentHappy);
+            Destroy(collison.gameObject);
+        }
+
         //behavior for when worm sits in a puddle
         if (collison.CompareTag("Puddle"))
         {

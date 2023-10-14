@@ -7,6 +7,7 @@ public class spawner : MonoBehaviour
     
     public GameObject[] foodObjects;
     public GameObject puddle;
+    public GameObject berry;
     
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,12 @@ public class spawner : MonoBehaviour
             Instantiate(puddle, randomSpawnPosition, Quaternion.identity);
         }
 
+        //randomly spawn 40 berries at start of the game
+        for (int i = 0; i < 40; i++){
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+            Instantiate(berry, randomSpawnPosition, Quaternion.identity);
+        }
+
         //spawn 1 random mushroom every minute
         StartCoroutine(foodSpawnerRoutine());
 
@@ -38,6 +45,7 @@ public class spawner : MonoBehaviour
 				int randomFood = Random.Range(0, foodObjects.Length);
                 Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
                 Instantiate(foodObjects[randomFood], randomSpawnPosition, Quaternion.identity);
+                Instantiate(berry, randomSpawnPosition, Quaternion.identity);
 
 			}
 
