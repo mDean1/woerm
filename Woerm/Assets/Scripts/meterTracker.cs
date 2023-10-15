@@ -49,7 +49,11 @@ public class meterTracker : MonoBehaviour
     {
         //Return to afterlife once objective is complete
         if (currentHappy >= maxHappy){
-            SceneManager.LoadScene("Heaven");             //ADD TRANSITION HERE (FADE TO BLACK)
+            SceneManager.LoadScene("Heaven");   //TRANSITION TO NEXT HEAVEN LEVEL
+        }
+
+        if ((currentHunger <= 0) && (currentWater <= 0)){
+            SceneManager.LoadScene("Heaven");   //RETURN TO PREVIOUS HEAVEN LEVEL
         }
 
         //slowly refills water meter as long as worm is in puddle
