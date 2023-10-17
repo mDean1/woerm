@@ -25,6 +25,8 @@ public class meterTracker : MonoBehaviour
     bool inPuddle;
     [SerializeField] private float coef = .2f;
     public SceneFader sceneFader;
+    public wormDialogue dialogue;
+    bool dialogueCalled = false;
 
 
 
@@ -48,8 +50,10 @@ public class meterTracker : MonoBehaviour
     void Update()
     {
         //Return to afterlife once objective is complete
-        if (currentHappy >= maxHappy){
-            SceneManager.LoadScene("Heaven");   //TRANSITION TO NEXT HEAVEN LEVEL
+        if ((currentHappy >= maxHappy) && !dialogueCalled){
+            dialogue.StartDialogue();
+            dialogueCalled = true;
+            //SceneManager.LoadScene("Heaven");   //TRANSITION TO NEXT HEAVEN LEVEL
         }
 
         if ((currentHunger <= 0) && (currentWater <= 0)){

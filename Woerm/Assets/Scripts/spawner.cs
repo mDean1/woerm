@@ -40,12 +40,13 @@ public class spawner : MonoBehaviour
     {
 			while (true)
             {
-                yield return new WaitForSeconds(60);
+                yield return new WaitForSeconds(40);
 
 				int randomFood = Random.Range(0, foodObjects.Length);
                 Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+                Vector3 randomSpawnPosition2 = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
                 Instantiate(foodObjects[randomFood], randomSpawnPosition, Quaternion.identity);
-                Instantiate(berry, randomSpawnPosition, Quaternion.identity);
+                Instantiate(berry, randomSpawnPosition2, Quaternion.identity);
 
 			}
 

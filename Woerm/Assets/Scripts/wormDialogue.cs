@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
     CODE FROM BMo's "5 Minute DIALOGUE SYSTEM in UNITY Tutorial" (https://www.youtube.com/watch?v=8oTYabhj248)
 */
 
-public class Dialogue : MonoBehaviour
+public class wormDialogue : MonoBehaviour
 {
 
     public TextMeshProUGUI textComponent;
@@ -19,15 +19,9 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        textComponent.text = string.Empty;
-        StartDialogue();
-    }
 
-    // Update is called once per frame
-    void Update()
+    /* Update is called once per frame
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -41,7 +35,7 @@ public class Dialogue : MonoBehaviour
                 textComponent.text = lines[index];
             }
         }
-    }
+    }*/
 
     public void StartDialogue()
     {
@@ -56,20 +50,15 @@ public class Dialogue : MonoBehaviour
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
+        yield return new WaitForSeconds(2);
+        NextLine();
     }
 
     void NextLine()
     {
-        if (index < lines.Length - 1)
-        {
-            index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
-        }
-        else
-        {
-            sceneFader.FadeOut("Heaven");
-            //gameObject.SetActive(false);
-        }
+        StopAllCoroutines();
+        textComponent.text = string.Empty;
+        sceneFader.FadeOut("Heaven");
+        
     }
 }
