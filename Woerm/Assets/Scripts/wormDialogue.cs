@@ -16,26 +16,7 @@ public class wormDialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     [SerializeField] public SceneFader sceneFader;
-
     private int index;
-
-
-    /* Update is called once per frame
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (textComponent.text == lines[index])
-            {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
-        }
-    }*/
 
     public void StartDialogue()
     {

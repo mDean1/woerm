@@ -69,7 +69,20 @@ public class Dialogue : MonoBehaviour
         else
         {
             sceneFader.FadeOut("Heaven");
-            //gameObject.SetActive(false);
+            StartCoroutine(waitTime());
         }
     }
+
+    IEnumerator waitTime()
+    {
+			while (true)
+            {
+                yield return new WaitForSeconds(2.9f);
+
+				gameObject.SetActive(false);
+
+			}
+
+            yield return null;
+		}
 }

@@ -9,17 +9,27 @@ public class soulMovement : MonoBehaviour
     Vector3 m_Input;
     public float m_Speed = 5f;
     public Vector3 rotationSpeed = new Vector3(0, 40, 0);
-    static public bool dialogue = false;
     [SerializeField] public SceneFader sceneFader;
+    public NPCDialogue dialogue;
+    public static bool tutorialDone = false;
+
 
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
+        if (!tutorialDone){
+            dialogue.StartDialogue();
+        }
+        tutorialDone = true;
     }
 
     void Update(){
         if (Input.GetKeyDown(KeyCode.R)){
             sceneFader.swirlOut();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            sceneFader.FadeOut("Start Menu");
         }
     }
     
