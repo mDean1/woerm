@@ -696,13 +696,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1174867756}
   lines:
-  - pain... struggle... it's all I knew.
-  - a life filled of loss, loneliness, and woe.
-  - i couldn't take it any longer.
-  - i wanted to be free.
   - ...
-  - death was my merciful escape.
-  - ...or so i thought.
+  - it's over already?
+  - i still feel every ounce of pain from my former human life.
+  - a Worm cannot mend my woes.
   textSpeed: 0.07
   sceneFader: {fileID: 622004825}
 --- !u!1 &1432762960

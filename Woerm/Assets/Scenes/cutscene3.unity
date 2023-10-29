@@ -696,13 +696,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1174867756}
   lines:
-  - pain... struggle... it's all I knew.
-  - a life filled of loss, loneliness, and woe.
-  - i couldn't take it any longer.
-  - i wanted to be free.
+  - i will never forget my past suffering.
+  - but each little Worm gives me new memories.
+  - moments ago, i was drowning in the deepest pit of sorrow.
+  - i still am... only a little less.
   - ...
-  - death was my merciful escape.
-  - ...or so i thought.
+  - Worm it will be.
+  - at least until the simple happiness of a ray of sunshine drowns out the past.
   textSpeed: 0.07
   sceneFader: {fileID: 622004825}
 --- !u!1 &1432762960

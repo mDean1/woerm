@@ -696,13 +696,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1174867756}
   lines:
-  - pain... struggle... it's all I knew.
-  - a life filled of loss, loneliness, and woe.
-  - i couldn't take it any longer.
-  - i wanted to be free.
   - ...
-  - death was my merciful escape.
-  - ...or so i thought.
+  - how long do Worms live for?
+  - minutes? years?
+  - does time even matter?
+  - i still can't forget the pain.
+  - i never will.
+  - but...the warmth of the sun...
+  - the coolness of the dirt...
+  - the softness of the grass...
+  - it's not so bad.
   textSpeed: 0.07
   sceneFader: {fileID: 622004825}
 --- !u!1 &1432762960
