@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.884216
+      value: 503.6315
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.010492
+      value: -0.000002861023
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.594421
+      value: 502.85638
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -79,6 +79,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 144933451796248369}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3202096736394502557}
   m_SourcePrefab: {fileID: 100100000, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}
 --- !u!1 &2444982011546526582 stripped
 GameObject:
@@ -112,6 +115,29 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4246523223025173155}
   m_Enabled: 1
+--- !u!136 &3202096736394502557
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2444982011546526582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.87
+  m_Height: 3.45
+  m_Direction: 1
+  m_Center: {x: -0.0475823, y: 0.7324388, z: 0.02357632}
 --- !u!23 &4246523223025173155 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 9fae1a2345b3ae64a9a8b473bed12bf2, type: 3}

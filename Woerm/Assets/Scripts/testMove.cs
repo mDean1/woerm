@@ -5,47 +5,30 @@ using UnityEngine;
 public class testMove : MonoBehaviour
 {
 
-    public Transform headBone; // The top bone of the worm.
-    public float moveSpeed = 5.0f; // Adjust the speed of forward/backward movement.
-    public float rotationSpeed = 90.0f; // Adjust the speed of rotation.
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 180f;
 
-    private HingeJoint[] hingeJoints;
-    private JointSpring[] originalSprings;
+    private Rigidbody rb;
 
-    void Start()
+    private void Start()
     {
-        // Get all hinge joints in the chain.
-        hingeJoints = GetComponentsInChildren<HingeJoint>();
-        
-        // Store the original spring settings for each hinge joint.
-        originalSprings = new JointSpring[hingeJoints.Length];
-        for (int i = 0; i < hingeJoints.Length; i++)
-        {
-            originalSprings[i] = hingeJoints[i].spring;
-        }
+        rb = GetComponent<Rigidbody>();
+        // Set rigidbody constraints to freeze rotation in the X and Z axes
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 
-    void Update()
+    private void Update()
     {
-        // Move the head bone forward/backward.
-        float verticalInput = Input.GetAxis("Vertical");
-        Vector3 movement = headBone.forward * verticalInput * moveSpeed * Time.deltaTime;
-
-        // Rotate the head bone left/right.
         float horizontalInput = Input.GetAxis("Horizontal");
-        Vector3 rotation = Vector3.up * horizontalInput * rotationSpeed * Time.deltaTime;
+        float verticalInput = Input.GetAxis("Vertical");
 
-        // Apply the movement and rotation to the head bone.
-        headBone.position += movement;
-        headBone.Rotate(rotation);
+        // Calculate movement and rotation
+        Vector3 movement = new Vector3(0f, 0f, verticalInput) * moveSpeed * Time.deltaTime;
+        Quaternion rotation = Quaternion.Euler(0f, horizontalInput * rotationSpeed * Time.deltaTime, 0f);
 
-        // Adjust the hinge joint springs to follow the head bone's rotation.
-        for (int i = 0; i < hingeJoints.Length; i++)
-        {
-            JointSpring spring = hingeJoints[i].spring;
-            spring.targetPosition = headBone.localEulerAngles.y;
-            hingeJoints[i].spring = spring;
-        }
+        // Apply movement and rotation
+        rb.MovePosition(rb.position + transform.TransformDirection(movement));
+        rb.MoveRotation(rb.rotation * rotation);
     }
 }
 
