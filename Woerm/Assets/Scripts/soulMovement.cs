@@ -27,10 +27,6 @@ public class soulMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)){
             sceneFader.swirlOut();
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape)){
-            sceneFader.FadeOut("Start Menu");
-        }
     }
     
     void FixedUpdate()
