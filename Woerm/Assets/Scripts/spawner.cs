@@ -15,19 +15,19 @@ public class spawner : MonoBehaviour
         //randomly spawn 30 mushrooms at start of the game
         for (int i = 0; i < 30; i++){
             int randomFood = Random.Range(0, foodObjects.Length);
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
             Instantiate(foodObjects[randomFood], randomSpawnPosition, Quaternion.identity);
         }
 
         //randomly spawn 30 puddles at start of the game
         for (int i = 0; i < 30; i++){
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
             Instantiate(puddle, randomSpawnPosition, Quaternion.identity);
         }
 
         //randomly spawn 40 berries at start of the game
         for (int i = 0; i < 40; i++){
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
             Instantiate(berry, randomSpawnPosition, Quaternion.identity);
         }
 
@@ -43,8 +43,8 @@ public class spawner : MonoBehaviour
                 yield return new WaitForSeconds(40);
 
 				int randomFood = Random.Range(0, foodObjects.Length);
-                Vector3 randomSpawnPosition = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
-                Vector3 randomSpawnPosition2 = new Vector3(Random.Range(30,970), 0, Random.Range(30,970));
+                Vector3 randomSpawnPosition = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
+                Vector3 randomSpawnPosition2 = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
                 Instantiate(foodObjects[randomFood], randomSpawnPosition, Quaternion.identity);
                 Instantiate(berry, randomSpawnPosition2, Quaternion.identity);
 
