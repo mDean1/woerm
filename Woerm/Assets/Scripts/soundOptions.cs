@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
-//Code from in-class lecture
+//Code from in-class lecture 
 public class soundOptions : MonoBehaviour
 {
     [SerializeField] AudioMixer mixer;
@@ -12,7 +12,7 @@ public class soundOptions : MonoBehaviour
     [SerializeField] Slider musicSlider;
     [SerializeField] Slider sfxSlider;
 
-    void Start() {
+    void Start(){
         if(PlayerPrefs.GetInt("Default Volume Changed") == 0){
             masterSlider.value = .5f;
             sfxSlider.value = .5f;

@@ -27,7 +27,7 @@ public class meterTracker : MonoBehaviour
     public SceneFader sceneFader;
     public wormDialogue dialogue;
     bool dialogueCalled = false;
-    [SerializeField] AudioSource audioSource;
+    public AudioSource audioSource;
     public AudioClip munchSfx;
 
 

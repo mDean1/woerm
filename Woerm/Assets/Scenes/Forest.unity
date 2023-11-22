@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'option 1 '
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7029f9e726b70df4ba655188ba7529ce, type: 2}
   m_sharedMaterial: {fileID: 1950551928353965325, guid: 7029f9e726b70df4ba655188ba7529ce, type: 2}
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -877,7 +877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &209365084
@@ -2456,6 +2456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionDropdown: {fileID: 1519800713}
+  toggle: {fileID: 1706861755}
 --- !u!114 &599937854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3556,7 +3557,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 10
+  m_ScrollSensitivity: 15
   m_Viewport: {fileID: 589147075}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1821882999}
@@ -6143,7 +6144,7 @@ GameObject:
   - component: {fileID: 1519800715}
   - component: {fileID: 1519800713}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: resolutionDropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6198,22 +6199,14 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 'option 1 '
-      m_Image: {fileID: 0}
-    - m_Text: option 2
-      m_Image: {fileID: 0}
-    - m_Text: option 3
-      m_Image: {fileID: 0}
-    - m_Text: option 4
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 599937853}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: SetResolution
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6243,7 +6236,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -266.99792, y: 183.7}
-  m_SizeDelta: {x: 387.8881, y: 89.6091}
+  m_SizeDelta: {x: 476, y: 89.6091}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519800715
 MonoBehaviour:
@@ -7579,7 +7572,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 712594641}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.6731551
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
