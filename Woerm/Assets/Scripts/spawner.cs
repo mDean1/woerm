@@ -25,8 +25,8 @@ public class spawner : MonoBehaviour
             Instantiate(puddle, randomSpawnPosition, Quaternion.identity);
         }
 
-        //randomly spawn 40 berries at start of the game
-        for (int i = 0; i < 40; i++){
+        //randomly spawn 50 berries at start of the game
+        for (int i = 0; i < 50; i++){
             Vector3 randomSpawnPosition = new Vector3(Random.Range(330,1270), 0, Random.Range(330,1270));
             Instantiate(berry, randomSpawnPosition, Quaternion.identity);
         }

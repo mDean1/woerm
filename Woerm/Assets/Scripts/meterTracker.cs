@@ -27,7 +27,8 @@ public class meterTracker : MonoBehaviour
     public SceneFader sceneFader;
     public wormDialogue dialogue;
     bool dialogueCalled = false;
-
+    [SerializeField] AudioSource audioSource;
+    public AudioClip munchSfx;
 
 
     // Start is called before the first frame update
@@ -101,6 +102,7 @@ public class meterTracker : MonoBehaviour
             currentHappy += 20;
             happyBar.SetHappy(currentHappy);
             Destroy(collison.gameObject);
+            audioSource.PlayOneShot(munchSfx, 1);
         }
 
         if (collison.CompareTag("Berry"))
@@ -109,6 +111,7 @@ public class meterTracker : MonoBehaviour
             currentHappy += 5;
             happyBar.SetHappy(currentHappy);
             Destroy(collison.gameObject);
+            audioSource.PlayOneShot(munchSfx, 1);
         }
 
         //behavior for when worm sits in a puddle
