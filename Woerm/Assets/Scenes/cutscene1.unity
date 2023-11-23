@@ -698,7 +698,7 @@ MonoBehaviour:
   lines:
   - ...
   - it's over already?
-  - i still feel every ounce of pain from my former human life.
+  - i still feel every ounce of pain from my human life.
   - a Worm cannot mend my woes.
   textSpeed: 0.07
   sceneFader: {fileID: 622004825}
