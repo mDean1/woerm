@@ -6,62 +6,90 @@ using UnityEngine.SceneManagement;
 
 
 /*
-    CODE FROM BMo's "5 Minute DIALOGUE SYSTEM in UNITY Tutorial" (https://www.youtube.com/watch?v=8oTYabhj248)
+    Code help from diving_squid's "UNITY 2D NPC DIALOGUE SYSTEM TUTORIAL" (https://www.youtube.com/watch?v=1nFNOyCalzo)
 */
-
 public class NPCDialogue : MonoBehaviour
 {
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+    public string[] dialogue;
+    private int index = 0;
 
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textSpeed;
-    [SerializeField] public SceneFader sceneFader;
-    private int index;
+    public float wordSpeed;
+    public bool playerIsClose;
 
+
+    void Start()
+    {
+        dialogueText.text = "";
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && playerIsClose)
         {
-            if (textComponent.text == lines[index])
+            if (!dialoguePanel.activeInHierarchy)
+            {
+                dialoguePanel.SetActive(true);
+                StartCoroutine(Typing());
+            }
+            else if (dialogueText.text == dialogue[index])
             {
                 NextLine();
             }
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];
+                dialogueText.text = dialogue[index];
             }
         }
     }
 
-    public void StartDialogue()
+    public void RemoveText()
     {
+        dialogueText.text = "";
         index = 0;
-        StartCoroutine(TypeLine());
+        dialoguePanel.SetActive(false);
     }
 
-    IEnumerator TypeLine()
+    IEnumerator Typing()
     {
-        foreach (char c in lines[index].ToCharArray())
+        foreach(char letter in dialogue[index].ToCharArray())
         {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
         }
     }
 
-    void NextLine()
+    public void NextLine()
     {
-        if (index < lines.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
+            dialogueText.text = "";
+            StartCoroutine(Typing());
         }
         else
         {
-            gameObject.SetActive(false);
+            RemoveText();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerIsClose = false;
+            RemoveText();
         }
     }
 }

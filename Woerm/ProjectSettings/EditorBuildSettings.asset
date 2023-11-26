@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: 0d70285deabc71747bab2fa98d8eeb67
+  - enabled: 1
+    path: Assets/Scenes/cutscene1.unity
+    guid: 1f13748ef93632d4f81df64cced04394
+  - enabled: 1
+    path: Assets/Scenes/Forest2.unity
+    guid: a504eb9dd2b661c4cafb0d68f7f497d7
+  - enabled: 1
+    path: Assets/Scenes/cutscene2.unity
+    guid: 8c3a7e87fa3518a48bd7173d0a6311de
+  - enabled: 1
+    path: Assets/Scenes/Heaven3.unity
+    guid: 794ac5395de349345a063d459eabde0a
+  - enabled: 1
+    path: Assets/Scenes/Forest3.unity
+    guid: e031132590aa28046bc56c47bf029d96
+  - enabled: 1
+    path: Assets/Scenes/cutscene3.unity
+    guid: f53eed1da8e9b87488a7c79597bcb310
   m_configObjects: {}

@@ -10,17 +10,13 @@ public class soulMovement : MonoBehaviour
     public float m_Speed = 5f;
     public Vector3 rotationSpeed = new Vector3(0, 40, 0);
     [SerializeField] public SceneFader sceneFader;
-    public NPCDialogue dialogue;
     public static bool tutorialDone = false;
 
 
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
-        if (!tutorialDone){
-            dialogue.StartDialogue();
-        }
-        tutorialDone = true;
+        
     }
 
     void Update(){
