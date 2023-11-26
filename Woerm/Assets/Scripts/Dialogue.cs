@@ -68,7 +68,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            sceneFader.FadeOut("Heaven");
+            int nextScene = (SceneManager.GetActiveScene().buildIndex + 1);
+            sceneFader.FadeOut(nextScene);
             StartCoroutine(waitTime());
         }
     }

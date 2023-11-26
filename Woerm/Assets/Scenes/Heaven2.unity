@@ -289,6 +289,34 @@ PrefabInstance:
       propertyPath: height
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: ugh. 21st century human has been my worst choice yet!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: no wonder you can't pick Worm past the year 2080.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: the human species ruined our planet...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: at least 121 million bce Worm will exist forever.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (13)
@@ -376,6 +404,54 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: power...i always craved so much of it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: i foolishly thought the human species would have the most.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: i was wrong.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: if you want true power...go Worm...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: they built the earth, gave themselves to the soil so others could thrive.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[5]
+      value: without the strength of Worms, there would be no humans.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: there's one particular Worm...121 million bce...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: no other species on the planet then which means no predators.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: the entire earth is yours! the Worm has true power...
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -665,6 +741,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -728,6 +806,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: i wonder if we have shared any past lives...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: have you ever been a human by the name of Morgan?
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -885,6 +983,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -959,6 +1059,27 @@ PrefabInstance:
       propertyPath: height
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: it's so nice living when you know death is only the beginning of a new
+        adventure.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: the unremarkableness of being a Worm is truly ... remarkable.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (1)
@@ -972,6 +1093,112 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+--- !u!1 &360666824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360666828}
+  - component: {fileID: 360666827}
+  - component: {fileID: 360666826}
+  - component: {fileID: 360666825}
+  m_Layer: 0
+  m_Name: Plane (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &360666825
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360666824}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &360666826
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360666824}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 33b7f51de50283b40b0e629bc4b6db72, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &360666827
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360666824}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &360666828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360666824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 192.8221, y: 0, z: 321.4}
+  m_LocalScale: {x: 78.564, y: 40, z: 40}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &407890947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,6 +1581,34 @@ PrefabInstance:
       propertyPath: height
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: i can sense your spirit aches.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: perhaps pick Worm, just one more try?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: it has soothed my many hearts.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: i'm certain it can heal yours as well.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (5)
@@ -1562,6 +1817,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 127872784}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &762808076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762808080}
+  - component: {fileID: 762808079}
+  - component: {fileID: 762808078}
+  - component: {fileID: 762808077}
+  m_Layer: 0
+  m_Name: Plane (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &762808077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762808076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &762808078
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762808076}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 33b7f51de50283b40b0e629bc4b6db72, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &762808079
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762808076}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &762808080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762808076}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 396.2, y: 0, z: -222.6619}
+  m_LocalScale: {x: 40, y: 40, z: 69.832}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &777817927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1628,6 +1989,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1692,6 +2055,26 @@ PrefabInstance:
       propertyPath: height
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: i wonder if i could get a girlfriend as a Worm...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: only one way to find out.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (12)
@@ -1710,18 +2093,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 781339415}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &842418304 stripped
+--- !u!1 &822765740
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
-  m_PrefabInstance: {fileID: 3462098178007013669}
-  m_PrefabAsset: {fileID: 0}
---- !u!135 &842418306
-SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842418304}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822765744}
+  - component: {fileID: 822765743}
+  - component: {fileID: 822765742}
+  - component: {fileID: 822765741}
+  m_Layer: 0
+  m_Name: Plane (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &822765741
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822765740}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1730,32 +2127,78 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 5.17
-  m_Center: {x: 0.7, y: -2.76, z: 0.63}
---- !u!114 &842418307
-MonoBehaviour:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &822765742
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842418304}
+  m_GameObject: {fileID: 822765740}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 452920709}
-  dialogueText: {fileID: 129816216}
-  dialogue:
-  - you may ask "why would anyone want to experience a mundane life of dirt and decomposition?"
-  - it's simple.
-  - the unremarkableness of being a Worm is truly ... remarkable.
-  wordSpeed: 0.07
-  playerIsClose: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 33b7f51de50283b40b0e629bc4b6db72, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &822765743
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822765740}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &822765744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822765740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -202.3502, y: 0, z: -371}
+  m_LocalScale: {x: 80.472, y: 40, z: 40}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852157339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,6 +2364,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: if you ask anyone for recommendations, they'll just tell you Worm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: i can't blame them...i'd tell you the same thing.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -2238,6 +2701,26 @@ PrefabInstance:
       propertyPath: height
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: the waiting's the hard part, having a brain again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: millions of thoughts from millions of past lives.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: Worm is my personal respite.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (15)
@@ -2327,6 +2810,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2400,6 +2885,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: the pain of your past life was not your fault, but it is your responsibility.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Worm will help you bear that burden.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -2480,6 +2985,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2546,6 +3053,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2626,6 +3135,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2694,6 +3205,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: why do you seem scared?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: perhaps reincarnating as a Worm will give you a much needed break.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -2768,6 +3299,26 @@ PrefabInstance:
       propertyPath: height
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: the unremarkableness of being a Worm is truly ... remarkable.
+      objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (14)
@@ -2786,6 +3337,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 1391748274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1407788738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407788742}
+  - component: {fileID: 1407788741}
+  - component: {fileID: 1407788740}
+  - component: {fileID: 1407788739}
+  m_Layer: 0
+  m_Name: Plane (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1407788739
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407788738}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1407788740
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407788738}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 33b7f51de50283b40b0e629bc4b6db72, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1407788741
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407788738}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1407788742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407788738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -395, y: 0, z: 83.339}
+  m_LocalScale: {x: 40, y: 40, z: 71.368}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1411227347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2845,6 +3502,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: the unremarkableness of being a Worm is truly ... remarkable.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -2935,6 +3612,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3004,6 +3683,14 @@ PrefabInstance:
       propertyPath: height
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul (8)
@@ -3083,6 +3770,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3158,6 +3847,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3233,6 +3924,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3296,6 +3989,26 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: ah, the bliss of the 121 million bce earth Worm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: i feel ... enlightened.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -3366,7 +4079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0.70980394}
+  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0.39607844}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3457,6 +4170,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3782,6 +4497,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3852,6 +4569,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3920,6 +4639,38 @@ PrefabInstance:
     - target: {fileID: 6463486924218251726, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: height
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: it was hard for me to come to terms with reincarnation.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: i can tell your first life was a human.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: my first life was an anteater.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: it was hard trying other lives, but i'm glad to meet other souls here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[4]
+      value: my first life was an anteater.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
@@ -4005,6 +4756,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4075,6 +4828,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4195,19 +4950,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4215,7 +4970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 4880678916672398892, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -4287,28 +5042,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 129816216}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 452920709}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: i just got back from being a Worm, it was lovely.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: i found a mushroom so big i could hardly finish it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: the unremarkableness of being a little Worm is truly ... remarkable.
       objectReference: {fileID: 0}
     - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_Name
       value: NPCSoul
       objectReference: {fileID: 0}
-    - target: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
-      propertyPath: m_TagString
-      value: NPC
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 842418306}
-    - targetCorrespondingSourceObject: {fileID: 9090211804517524266, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 842418307}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -4317,6 +5082,10 @@ SceneRoots:
   - {fileID: 494603273}
   - {fileID: 251670090}
   - {fileID: 852157343}
+  - {fileID: 1407788742}
+  - {fileID: 360666828}
+  - {fileID: 762808080}
+  - {fileID: 822765744}
   - {fileID: 40558384}
   - {fileID: 619904749337564398}
   - {fileID: 1001097122}

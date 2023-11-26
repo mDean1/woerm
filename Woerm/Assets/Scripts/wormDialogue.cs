@@ -39,7 +39,8 @@ public class wormDialogue : MonoBehaviour
     {
         StopAllCoroutines();
         textComponent.text = string.Empty;
-        sceneFader.FadeOut("Heaven");
+        int nextScene = (SceneManager.GetActiveScene().buildIndex + 1);
+        sceneFader.FadeOut(nextScene);
         
     }
 }

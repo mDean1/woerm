@@ -21,7 +21,8 @@ public class soulMovement : MonoBehaviour
 
     void Update(){
         if (Input.GetKeyDown(KeyCode.R)){
-            sceneFader.swirlOut();
+            int nextScene = (SceneManager.GetActiveScene().buildIndex + 1);
+            sceneFader.swirlOut(nextScene);
         }
     }
     

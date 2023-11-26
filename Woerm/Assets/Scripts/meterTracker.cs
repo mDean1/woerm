@@ -58,7 +58,8 @@ public class meterTracker : MonoBehaviour
         }
 
         if ((currentHunger <= 0) && (currentWater <= 0)){
-            SceneManager.LoadScene("Heaven");   //RETURN TO PREVIOUS HEAVEN LEVEL
+            int lastScene = (SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(lastScene);   //RETURN TO PREVIOUS HEAVEN LEVEL
         }
 
         //slowly refills water meter as long as worm is in puddle

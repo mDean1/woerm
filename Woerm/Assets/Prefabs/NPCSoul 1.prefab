@@ -4838,9 +4838,11 @@ GameObject:
   m_Component:
   - component: {fileID: 796737172502503369}
   - component: {fileID: 6463486924218251726}
+  - component: {fileID: 721522521713334306}
+  - component: {fileID: 6942895721728542719}
   m_Layer: 0
   m_Name: NPCSoul 1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4876,6 +4878,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   height: 0.5
+--- !u!135 &721522521713334306
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9090211804517524266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5.17
+  m_Center: {x: 0.7, y: -2.76, z: 0.63}
+--- !u!114 &6942895721728542719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9090211804517524266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogue:
+  - you may ask "why would anyone want to experience a mundane life of dirt and decomposition?"
+  - it's simple.
+  - the unremarkableness of being a Worm is truly ... remarkable.
+  wordSpeed: 0.07
+  playerIsClose: 0
 --- !u!1001 &2315651355035119439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4927,6 +4970,10 @@ PrefabInstance:
     - target: {fileID: 7146641702716915887, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
       propertyPath: m_Name
       value: PlayerSoul
+      objectReference: {fileID: 0}
+    - target: {fileID: 7287483722357892651, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3179034486325399936, guid: 39cc54ebc56c6104d97f23820cadd199, type: 3}

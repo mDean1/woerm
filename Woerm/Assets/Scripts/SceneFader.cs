@@ -36,7 +36,7 @@ public class SceneFader : MonoBehaviour
         } 
     }
 
-     public void FadeOut(string sceneName){
+     public void FadeOut(int sceneName){
         if(fadingOut){
             return;
         }
@@ -57,7 +57,7 @@ public class SceneFader : MonoBehaviour
 
     
 
-    public void swirlOut(){
+    public void swirlOut(int sceneName){
         StartCoroutine(SwirlOutRoutine());
         IEnumerator SwirlOutRoutine(){
             float timer = 0;
@@ -70,7 +70,7 @@ public class SceneFader : MonoBehaviour
                 yield return null;
             }
             yield return null;
-            SceneManager.LoadScene("Forest");
+            SceneManager.LoadScene(sceneName);
         }
     }
     
