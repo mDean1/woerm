@@ -69,7 +69,13 @@ public class Dialogue : MonoBehaviour
         else
         {
             int nextScene = (SceneManager.GetActiveScene().buildIndex + 1);
-            sceneFader.FadeOut(nextScene);
+            int totalScenes = SceneManager.sceneCountInBuildSettings;
+            if (nextScene >= totalScenes){
+                sceneFader.FadeOut(0);
+            }
+            else{
+                sceneFader.FadeOut(nextScene);
+            }
             StartCoroutine(waitTime());
         }
     }
