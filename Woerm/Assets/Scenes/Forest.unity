@@ -5761,6 +5761,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1338149464}
     - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
+      propertyPath: guiCanvas
+      value: 
+      objectReference: {fileID: 52796073}
+    - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: hungerBar
       value: 
       objectReference: {fileID: 1197442565}
@@ -5815,6 +5819,10 @@ PrefabInstance:
     - target: {fileID: 4422278172501863863, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: m_Name
       value: PlayerWorm
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441043633726996382, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

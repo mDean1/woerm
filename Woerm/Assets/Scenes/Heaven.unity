@@ -172,6 +172,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -207,10 +223,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 949419178}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &49112509 stripped
 Transform:
@@ -410,6 +431,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -472,10 +509,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1943319998}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1 &142759700
 GameObject:
@@ -672,6 +713,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -708,11 +765,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 623558359}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+--- !u!1 &249614365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1170851572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &249614367 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1170851572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249614365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &249614372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249614365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - power...i always craved so much of it.
+  - i foolishly thought the human species would have the most power.
+  - i was wrong.
+  - if you want true power...go Worm...
+  - they built the earth, gave themselves to the soil so others could thrive.
+  - without the strength of Worms, there would be no humans.
+  - there's one particular Worm...121 million bce...
+  - no other species on the planet yet, which means no predators.
+  - the entire earth is yours! now that is true power...
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 249614367}
 --- !u!1001 &251670090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -871,6 +976,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 953834152}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &341375427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1944574257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &341375429 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1944574257}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341375427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &341375434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341375427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - souls are no different than stars.
+  - there's millions...billions...maybe trillions of us.
+  - i hope i shine just as brilliantly as the stars do in the sky.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 341375429}
 --- !u!1001 &351684407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -964,11 +1106,116 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 355321988}
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 355321987}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+--- !u!1 &355321980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 351684407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &355321982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 351684407}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355321980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &355321987
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355321980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5.17
+  m_Center: {x: 0, y: -2.76, z: 0}
+--- !u!114 &355321988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355321980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - pstt...
+  - did you hear that the prefrontal cortex of the 121 million bce earth Worm is
+    just barely developed?
+  - from my understanding of that, it means that they cannot feel pain.
+  - everybody else is going Worm...i might as well try too.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 355321982}
+--- !u!1 &383610039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1586111002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &383610041 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1586111002}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383610039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &383610046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383610039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - this realm stretches on forever, with infinite souls leaving and returning.
+  - but perhaps there are infinite realms as well...
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 383610041}
 --- !u!1 &386652745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5797,6 +6044,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &391400844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1496379227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &391400846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1496379227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391400844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &391400851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391400844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - do you believe in soulmates?
+  - we have no memories of our past lives when we're currently living our next life.
+  - but i find love in each life, in each form. even as a mere Worm.
+  - the universe aligns my soulmate with me in whatever life we live.
+  - we don't remember our past history when we meet in a new life, but we somehow
+    know we are soulmates.
+  - the universe works in mysterious ways, but i am forever thankful to never spend
+    my infinite lives alone.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 391400846}
 --- !u!1 &407890947
 GameObject:
   m_ObjectHideFlags: 0
@@ -5993,9 +6282,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494603270}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.61, y: 0, z: -86.12}
+  m_LocalScale: {x: 1.37, y: 1.37, z: 1.37}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6172,6 +6461,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -6215,10 +6520,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 644550827}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1 &554534946
 GameObject:
@@ -6325,11 +6635,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766126082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+--- !u!1 &623558352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 222454185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &623558354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 222454185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623558352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &623558359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623558352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - your burdens feel heavy now, but as you live more lives, the good memories drown
+    out the bad ones.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 623558354}
 --- !u!4 &639160346 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 1944574257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &644550820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 534237027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &644550822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 534237027}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644550820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &644550827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644550820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - ugh. 21st century human has been my worst choice yet!
+  - no wonder you can't pick Worm past the year 2080.
+  - the human species ruined our planet...
+  - at least 121 million bce Worm will exist forever.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 644550822}
 --- !u!1 &657576177
 GameObject:
   m_ObjectHideFlags: 0
@@ -6512,11 +6896,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685799958}
   m_CullTransparentMesh: 1
+--- !u!1 &712403604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 953834152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &712403606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 953834152}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712403604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &712403611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712403604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - your soul seems young. only one past life so far?
+  - i lost track after thousands.
+  - you would assume i no longer remember each one, but i can recall each second
+    lived in each life.
+  - the best part is not having any past memories in your next life, at least until
+    you arrive here again.
+  - nobody remembers reincarnation exists until it is time to reincarnate again.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 712403606}
+--- !u!135 &712403612
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712403604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5.17
+  m_Center: {x: 0, y: -2.76, z: 0}
 --- !u!4 &757597754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 127872784}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &772269675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 3462098178007013669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &772269682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772269675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - ...
+  - you seem...unsettled. bad choice last reincarnation?
+  - or perhaps that was your first ever life?
+  - don't be scared, new soul.
+  - to some this realm is called heaven, or purgatory, or hell, or paradise, and
+    so on. it goes by many titles.
+  - regardless of the name you give it, it serves the same purpose.
+  - a waiting room for souls in between reincarnations.
+  - ...
+  - i can sense...a heavy weight in your soul.
+  - we don't forget. that's the problem, you see? you will always carry the feelings
+    of your past lives.
+  - you'll experience all this... every time you're here.
+  - the only way to temporarily forget is to reincarnate, to seek out a new life.
+  - however, you have the power to choose your next life, and the life after, for
+    the rest of infinity.
+  - some new souls think they will never have a bad life again.
+  - but most lives are messy...painful...violent...
+  - be wise in your choices. you have infinite tries...but we'll never forget.
+  - i'd talk to some other souls here before you choose to move on to your next life.
+  - i personally suggest to try going 121 million bce Worm. you'll understand why
+    after.
+  - all they need to do to experience true happiness is eat some food. it's so simple.
+  - but, when you feel you are ready to reincarnate, close your eyes, envision your
+    new life, and press [r].
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 772269683}
+--- !u!114 &772269683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772269675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!135 &772269684
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772269675}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5.01
+  m_Center: {x: 0, y: -2.76, z: 0}
 --- !u!1001 &777817927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6637,6 +7170,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -6670,6 +7219,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6785,6 +7336,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1840865668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &949419171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 49112508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &949419173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 49112508}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949419171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &949419178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949419171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - soaking in puddles is so refreshing as a Worm.
+  - i feel so happy after a big meal and a nice soak...
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 949419173}
 --- !u!1001 &953834152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6884,10 +7471,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712403612}
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 712403611}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &968589046 stripped
 Transform:
@@ -7191,6 +7787,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1034625707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1391748274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1034625709 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1391748274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034625707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1034625714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034625707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - i have mourned too many lives.
+  - Worm is the only thing that is simple enough for me to keep picking.
+  - i hope Worms will never feel pain.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 1034625709}
 --- !u!1 &1053523979
 GameObject:
   m_ObjectHideFlags: 0
@@ -7287,6 +7920,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -7318,10 +7967,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1887071466}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &1058581924 stripped
 Transform:
@@ -7675,6 +8329,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -7738,10 +8408,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 249614372}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1001 &1195391673
 PrefabInstance:
@@ -8016,6 +8691,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -8055,10 +8746,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1993063771}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1 &1382663488
 GameObject:
@@ -8185,6 +8881,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -8220,10 +8932,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1034625714}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &1391748275 stripped
 Transform:
@@ -8279,6 +8996,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -8312,6 +9045,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8451,6 +9186,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -8505,10 +9256,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 391400851}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1001 &1534770668
 PrefabInstance:
@@ -8782,6 +9538,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -8817,10 +9589,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 383610046}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &1639518679 stripped
 Transform:
@@ -9184,6 +9961,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766126082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1887071459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1058581923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1887071461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1058581923}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887071459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1887071466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887071459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - ...
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 1887071461}
 --- !u!4 &1889492331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
@@ -9336,6 +10148,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 1918735344}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1943319991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 127872784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1943319993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 127872784}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943319991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1943319998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943319991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - there's a few rules about reincarnation.
+  - you can choose nearly any soul to inhabit, but they must share a common ancestor
+    with your first life.
+  - that's why nearly every soul i meet prefers to go Worm.
+  - we were all shaped from organisms that transcend conceivable time.
+  - we were all once a Worm, billions of years ago.
+  - our next life is not made new for us, we simply reshape existing cosmic dust.
+  - any form you choose is a beatiful synthesis of every other soul that came before.
+  - i supposed that's why death is never the end.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 1943319993}
 --- !u!1001 &1944574257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9385,6 +10240,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Radius
+      value: 5.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.y
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -9420,16 +10291,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 341375434}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!4 &1973034329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
   m_PrefabInstance: {fileID: 777817927}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1993063764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1341730884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1993063766 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+  m_PrefabInstance: {fileID: 1341730884}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993063764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1993063771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993063764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddfb481cf9550ef48b3dc05ef15be6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 657576177}
+  dialogueText: {fileID: 55869178}
+  dialogue:
+  - there is no rush to reincarnate right away.
+  - you can stay here until you're ready.
+  - time does not pass in this realm, not like time is important to us anyway.
+  wordSpeed: 0.07
+  playerIsClose: 0
+  outline: {fileID: 1993063766}
 --- !u!1001 &2026428105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9744,6 +10657,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 5.01
       objectReference: {fileID: 0}
+    - target: {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 796737172502503369, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.69425
@@ -9787,6 +10704,18 @@ PrefabInstance:
     - target: {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: outline
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      propertyPath: OutlineColor
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
       propertyPath: dialogueText
@@ -9892,10 +10821,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCSoul
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6706606411037103383, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 4972131728959228260, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 6942895721728542719, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+    - {fileID: 721522521713334306, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772269683}
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772269682}
+    - targetCorrespondingSourceObject: {fileID: 4832116525704572896, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772269684}
   m_SourcePrefab: {fileID: 100100000, guid: 739b1fc35a76e5d41840f8caa0bf442e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

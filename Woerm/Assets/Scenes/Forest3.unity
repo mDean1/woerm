@@ -5669,6 +5669,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1338149464}
     - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
+      propertyPath: guiCanvas
+      value: 
+      objectReference: {fileID: 52796073}
+    - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: hungerBar
       value: 
       objectReference: {fileID: 1197442565}
@@ -8538,7 +8542,7 @@ Transform:
   m_GameObject: {fileID: 2105095728}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.54802924, z: -0, w: 0.83645916}
-  m_LocalPosition: {x: 894.2, y: 45.42, z: 687.63}
+  m_LocalPosition: {x: 894.2, y: 45, z: 687.63}
   m_LocalScale: {x: 0.30000004, y: 0.3, z: 0.30000004}
   m_ConstrainProportionsScale: 0
   m_Children:

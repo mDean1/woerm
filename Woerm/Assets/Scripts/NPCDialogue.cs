@@ -17,6 +17,7 @@ public class NPCDialogue : MonoBehaviour
 
     public float wordSpeed;
     public bool playerIsClose;
+    [SerializeField] Outline outline;
 
 
     void Start()
@@ -29,6 +30,7 @@ public class NPCDialogue : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && playerIsClose)
         {
+            outline.OutlineWidth = 0f;
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
@@ -38,14 +40,17 @@ public class NPCDialogue : MonoBehaviour
             {
                 NextLine();
             }
+            //Allows for clicking a second time to skip typing animation
             else
             {
                 StopAllCoroutines();
                 dialogueText.text = dialogue[index];
             }
         }
+        
     }
 
+    
     public void RemoveText()
     {
         dialogueText.text = "";
@@ -90,6 +95,8 @@ public class NPCDialogue : MonoBehaviour
         {
             playerIsClose = false;
             RemoveText();
+            StopAllCoroutines();
+
         }
     }
 }

@@ -5761,6 +5761,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1338149464}
     - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
+      propertyPath: guiCanvas
+      value: 
+      objectReference: {fileID: 52796073}
+    - target: {fileID: 1445645979793454307, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: hungerBar
       value: 
       objectReference: {fileID: 1197442565}
@@ -8795,8 +8799,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 3156035493068872849}
   - {fileID: 2105095731}
+  - {fileID: 3156035493068872849}
   - {fileID: 445036403}
   - {fileID: 551633953}
   - {fileID: 1040106084}

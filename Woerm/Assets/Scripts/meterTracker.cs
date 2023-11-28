@@ -26,6 +26,8 @@ public class meterTracker : MonoBehaviour
     [SerializeField] private float coef = .2f;
     public SceneFader sceneFader;
     public wormDialogue dialogue;
+    public GameObject guiCanvas;
+    
     bool dialogueCalled = false;
     public AudioSource audioSource;
     public AudioClip munchSfx;
@@ -53,12 +55,15 @@ public class meterTracker : MonoBehaviour
         //Return to afterlife once objective is complete
         if ((currentHappy >= maxHappy) && !dialogueCalled){
             dialogue.StartDialogue();
+            guiCanvas.SetActive(false);
+
             dialogueCalled = true;
             //SceneManager.LoadScene("Heaven");   //TRANSITION TO NEXT HEAVEN LEVEL
         }
 
         if ((currentHunger <= 0) && (currentWater <= 0)){
             int lastScene = (SceneManager.GetActiveScene().buildIndex - 1);
+            guiCanvas.SetActive(false);
             SceneManager.LoadScene(lastScene);   //RETURN TO PREVIOUS HEAVEN LEVEL
         }
 
