@@ -5772,10 +5772,6 @@ PrefabInstance:
       propertyPath: sceneFader
       value: 
       objectReference: {fileID: 445036399}
-    - target: {fileID: 3045488516182052886, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
-      propertyPath: rotationSpeed
-      value: 60
-      objectReference: {fileID: 0}
     - target: {fileID: 3896957546289673997, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: m_LocalPosition.x
       value: 625.16
@@ -5819,10 +5815,6 @@ PrefabInstance:
     - target: {fileID: 4422278172501863863, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
       propertyPath: m_Name
       value: PlayerWorm
-      objectReference: {fileID: 0}
-    - target: {fileID: 7441043633726996382, guid: af019147de18a5e4eaf33d8b4261c033, type: 3}
-      propertyPath: Loop
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
